@@ -1,0 +1,52 @@
+[{
+  "magical_items": [
+    {
+      "description": "a faitly glowing dagger"
+    },
+    {
+      "description": "a gemstone with faintly carved runes on each facet"
+    },
+    {
+      "description": "three marbles, each humming a slightly different note"
+    },
+    {
+      "description": "a jar of pickled beets, swirling with sparkles"
+    },
+    {
+      "description": "a small figurine shaped like a dog that changes its posture when you aren't looking "
+    },
+    {
+      "description": "a lucky rabbit's foot"
+    },
+    {
+      "description": "a small, smooth stone with the image of a cat carved into its surface"
+    }
+  ]
+},{
+  "money": [
+    {
+      "description": "a heavy chest of gems"
+    },
+    {
+      "description": "a pouch filled with an unknown amount of money"
+    },
+    {
+      "description": "a single ruby the size of a fist"
+    },
+    {
+      "description": "a small pouch of platinum coins "
+    }
+  ]
+},{
+  "other": [
+    {
+      "description": "a favor from the quest-giver"
+    },
+    {
+      "description": "a clue that points the party in the right direction for their main quest"
+    },
+    {
+      "description": "a treasure map"
+    }
+  ]
+}]

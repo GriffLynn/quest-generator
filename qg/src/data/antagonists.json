@@ -1,0 +1,79 @@
+[{
+  "monsters": [
+    {
+      "description": "a lone werewolf"
+    },
+    {
+      "description": "a pack of rabid grung"
+    },
+    {
+      "description": "giant spiders"
+    },
+    {
+      "description": "a 15ft tall troll"
+    },
+    {
+      "description": "giant spiders"
+    },
+    {
+      "description": "a pack of gnoll"
+    },
+    {
+      "description": "a giant scorpion"
+    },
+    {
+      "description": "a pack of direwolves"
+    },
+    {
+      "description": "a manticore with only one eye"
+    },
+    {
+      "description": "a salty sea hag"
+    }
+  ]
+},{
+  "humanoid": [
+    {
+      "description": "a group of salty pirates"
+    },
+    {
+      "description": "a vampire overlord"
+    },
+    {
+      "description": "the local druglord"
+    },
+    {
+      "description": "a meager shopkeeper who suddenly and suspiciously came into vast wealth"
+    },
+    {
+      "description": "the quest-giver's rival"
+    },
+    {
+      "description": "a band of ghostly thieves"
+    },
+    {
+      "description": "a shifty goblin with a suspicious amount of shinies"
+    },
+    {
+      "description": "a suspicious looking tiefling"
+    },
+    {
+      "description": "a group of cultists wearing dark blue robes"
+    },
+    {
+      "description": "a pack of roving undead"
+    },
+    {
+      "description": "a terrifying archdemon with glowing green horns"
+    },
+    {
+      "description": "a suspicious wizard wearing a large crystal necklace"
+    },
+    {
+      "description": "a hooded figure"
+    },
+    {
+      "description": "a ghastly wraith"
+    }
+  ]
+}]

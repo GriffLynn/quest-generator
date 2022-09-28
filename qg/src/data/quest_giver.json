@@ -1,0 +1,121 @@
+[{
+  "race": "dwarven",
+  "occupation": [
+    "merchant",
+    "healer",
+    "tinkerer",
+    "farmer",
+    "soldier",
+    "oracle",
+    "barkeep",
+    "tavern-owner",
+    "drunkard",
+    "child"
+  ],
+  "with": [
+    "brown robes",
+    "a scratchy voice",
+    "three fingers on one hand",
+    "old, worn boots",
+    "a scar on their left cheek",
+    "platinum blond hair",
+    "short, spiky hair",
+    "a well-groomed beard",
+    "an unnaturally high-pitched voice",
+    "an intricately carved walking stick"
+  ]
+},{
+  "race": "elven",
+  "occupation": [
+    "wizard",
+    "sorcerer",
+    "healer",
+    "dualist",
+    "town guard",
+    "soldier",
+    "tavern-keeper",
+    "shopkeep",
+    "elder",
+    "teen",
+    "hunter",
+    "scout",
+    "politician"
+  ],
+  "with": [
+    "green eyes",
+    "dark, wavy hair",
+    "an enormous chin",
+    "a beautifuly decorated blade",
+    "tattered clothing",
+    "shiny boots",
+    "a tarnished gemstone necklace",
+    "one arm",
+    "a burn mark covering the right side of their face",
+    "unnaturally long legs"
+  ]
+},{
+  "race": "human",
+  "occupation": [
+    "soldier",
+    "shopkeep",
+    "brawler",
+    "businessman",
+    "thief",
+    "town guard",
+    "pirate",
+    "healer",
+    "shepherd",
+    "farmer",
+    "child",
+    "elder",
+    "barkeep",
+    "guard"
+  ],
+  "with": [
+    "shaggy hair",
+    "a scraggly beard",
+    "wavy blond hair",
+    "four fingers on each hand",
+    "a nicely polished gold ring",
+    "tattered robes",
+    "well-kept gloves",
+    "threadbare sandals",
+    "glowing purple eyes",
+    "a gigantic scarf that covers their whole head and shoulders"
+  ]
+},{
+  "race": "gnomish",
+  "occupation": [
+    "tinkerer",
+    "tavern-keeper",
+    "guard",
+    "enchanter",
+    "shopkeep",
+    "politician",
+    "farmer",
+    "forager",
+    "hunter",
+    "barkeep",
+    "cook",
+    "healer",
+    "wizard",
+    "sorcerer",
+    "soldier",
+    "elder"
+  ],
+  "with": [
+    "guaged ears",
+    "short blond hair",
+    "a massive scar on their face",
+    "a beautifully adorned staff",
+    "too many rings on their fingers",
+    "finely tailored clothing",
+    "tattered robes",
+    "a silly hat",
+    "too many belts",
+    "no hair",
+    "large round eyes",
+    "tattoos",
+    "callused hands"
+  ]
+}]
