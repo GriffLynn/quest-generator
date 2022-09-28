@@ -1,5 +1,5 @@
 [{
-  "race": "dwarven",
+  "race": "Dwarven",
   "occupation": [
     "merchant",
     "healer",
@@ -25,7 +25,7 @@
     "an intricately carved walking stick"
   ]
 },{
-  "race": "elven",
+  "race": "Elven",
   "occupation": [
     "wizard",
     "sorcerer",
@@ -54,7 +54,7 @@
     "unnaturally long legs"
   ]
 },{
-  "race": "human",
+  "race": "Human",
   "occupation": [
     "soldier",
     "shopkeep",
@@ -84,7 +84,7 @@
     "a gigantic scarf that covers their whole head and shoulders"
   ]
 },{
-  "race": "gnomish",
+  "race": "Gnomish",
   "occupation": [
     "tinkerer",
     "tavern-keeper",

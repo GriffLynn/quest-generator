@@ -30,7 +30,12 @@ const App = () => {
           loot={loot}
           questgiver={quest_giver}
           quests={quests}
-          twists={twist} /> : null}
+          twists={twist}
+          close={setPop} /> : null}
+      </div>
+      <div className="footer-container">
+        <footer className="app-footer">
+        </footer>
       </div>
     </div>
   );

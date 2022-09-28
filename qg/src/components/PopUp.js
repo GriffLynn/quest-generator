@@ -1,6 +1,6 @@
 
 
-const PopUp = ({ antagonists, loot, questgiver, quests, twists }) => {
+const PopUp = ({ antagonists, loot, questgiver, quests, twists, close }) => {
 
   const chooseAntagonist = () => {
     const randomType = antagonists[Math.floor(Math.random() * antagonists.length)];
@@ -34,13 +34,30 @@ const PopUp = ({ antagonists, loot, questgiver, quests, twists }) => {
   const chooseTwist = () => {
     return twists[Math.floor(Math.random() * twists.length)].t;
   }
-  console.log(chooseTwist());
+
+  const handleClose = () => {
+    close(false);
+  }
 
   return (
     <div className="pop-div">
-      <p className="quest-text">
-       A {chooseQuestGiver()} approaches the party and asks them to {chooseQuest()} They offer {chooseLoot()} in exhange. Along the way, the party faces {chooseAntagonist()} and {chooseTwist()}
-      </p>
+      <div>
+        <p className="quest-text">
+          A {chooseQuestGiver()} approaches the party and asks them to {chooseQuest()}
+            <br></br>
+            <br></br>
+            In exchange, they offer {chooseLoot()}.
+            <br></br>
+            <br></br>
+            Along the way, the party faces {chooseAntagonist()} and {chooseTwist()}
+        </p>
+      </div>
+      <div className="close-container">
+        <button className="close-button"
+          onClick={handleClose}>
+            close
+        </button>
+      </div>
     </div>
   )
 }

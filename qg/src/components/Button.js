@@ -9,7 +9,7 @@ const Button = ({ handleClick }) => {
     <div className="button-div">
       <button className="button"
         onClick={handleButtonClick}>
-        Fuck Yes!
+        <b>Let's Go!</b>
       </button>
     </div>
   )
