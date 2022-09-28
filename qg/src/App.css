@@ -1,7 +1,14 @@
-.App {
+body {
+  background-color: whitesmoke;
   max-width: 1500px;
+}
+
+.App {
+  width: auto;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: rgb(33, 33, 33);
+  background-color: whitesmoke;
 
 }
 
@@ -10,10 +17,16 @@
   pointer-events: none;
 }
 
-.App-header {
+.header-container {
+  width: 960px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.App-header .header-container {
   background-color: #ef747a;
-  max-height: 100px;
-  max-width: 1500px;
+  max-height: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -22,8 +35,79 @@
 
 .qg {
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: whitesmoke;
   text-align: right;
   display:flexbox;
   margin: 50px;
+}
+
+.pop-div {
+  background-color: white;
+  position: fixed;
+  width: 50%;
+  top: calc(25% - 50px);
+  left: calc(25% - 50px);
+  padding: 40px;
+  border-radius: 5px;
+  display: flexbox;
+  box-shadow: 0 4px 8px 0 rgba(99, 29, 29, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 9999;
+}
+
+.components-div {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.greetings-adventurer {
+  max-width: 1000px;
+  margin-top: 40px;
+  margin-left: 250px;
+  margin-right: 250px;
+  padding-left: 40px;
+  padding-right: 40px;
+  display:flex;
+  justify-content: center;
+}
+
+.greeting-container {
+  width: 300px;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+
+.greet-text {
+  font-size: calc(5px + 2vmin);
+  color: rgb(53, 53, 53);
+  text-align: center;
+}
+
+.embark-text {
+  font-size: calc(4px + 2vmin);
+  color: rgb(53, 53, 53);
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: rgb(159, 159, 159);
+  border-color: rgb(197, 197, 197);
+  color: whitesmoke;
+  border-radius: 4px;
+  font-size: 1.5em;
+  padding: 10px;
+  margin: 10px 15px 0 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ef747a;
+  color: whitesmoke;
 }
