@@ -1,5 +1,5 @@
 [{
-  "race": "dwarven",
+  "race": "Dwarven",
   "occupation": [
     "merchant",
     "healer",
@@ -25,7 +25,7 @@
     "an intricately carved walking stick"
   ]
 },{
-  "race": "elven",
+  "race": "Elven",
   "occupation": [
     "wizard",
     "sorcerer",
@@ -45,7 +45,7 @@
     "green eyes",
     "dark, wavy hair",
     "an enormous chin",
-    "a beautifuly decorated blade",
+    "a beautifully decorated blade",
     "tattered clothing",
     "shiny boots",
     "a tarnished gemstone necklace",
@@ -54,7 +54,7 @@
     "unnaturally long legs"
   ]
 },{
-  "race": "human",
+  "race": "Human",
   "occupation": [
     "soldier",
     "shopkeep",
@@ -84,7 +84,7 @@
     "a gigantic scarf that covers their whole head and shoulders"
   ]
 },{
-  "race": "gnomish",
+  "race": "Gnomish",
   "occupation": [
     "tinkerer",
     "tavern-keeper",

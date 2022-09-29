@@ -1,29 +1,186 @@
+:root {
+  --accent: #efab3e;
+  --light: #e8c88c;
+
+}
+
+body {
+  background-color: whitesmoke;
+}
+
 .App {
-  max-width: 1500px;
+  position: relative;
+  background-image: url('./assets/map.jpg');
+  background-size:cover;
+  font-size: 25px;
+  height: 740px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  background-color: rgb(33, 33, 33);
+  background-color: whitesmoke;
 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-padding {
+  position: absolute;
+  background-color: var(--light);
+  top: -20px;
+  height: 30px;
+  width: 1344px;
+	max-width: 100%;
+  padding: 15px;
+	margin: 0 auto;
 }
 
-.App-header {
-  background-color: #ef747a;
-  max-height: 100px;
-  max-width: 1500px;
+.header-container {
+  position: absolute;
+  background-color: var(--light);
+  width: 1344px;
+	max-width: 100%;
+  padding: 15px;
+	margin: 0 auto;
+  margin-bottom: 40px;
+  box-shadow: 0 2px 3px 0 rgba(100, 100, 100, 0.109), 0 2px 5px 0 rgba(53, 53, 53, 0.19);
+}
+
+.App-header .header-container {
+  background-color: var(--accent);
+  max-height: 35px;
+  top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
+.footer-container {
+  position:absolute;
+  bottom: 0;
+  width: 1334px;
+  background-color: var(--accent);
+  height: 25px;
+	max-width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+  box-shadow: 0 2px 3px 0 rgba(100, 100, 100, 0.109), 0 2px 5px 0 rgba(53, 53, 53, 0.19);
+}
+
+.app-footer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.logo {
+  position: absolute;
+  top: -30px;
+  left: calc(46% - 50px);
+  width: 200px;
+}
+
 .qg {
   font-size: calc(10px + 2vmin);
-  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: whitesmoke;
   text-align: right;
   display:flexbox;
   margin: 50px;
 }
+
+.pop-div {
+  background-color: rgb(255, 255, 255);
+  position: fixed;
+  width: 50%;
+  top: calc(25% - 50px);
+  left: calc(25% - 50px);
+  padding: 40px;
+  border-radius: 5px;
+  display: flexbox;
+  justify-content: center;
+  box-shadow: 0 20px 40px 0 rgba(66, 19, 20, 0.337), 0 50px 1000px 0 rgba(0, 0, 0, 0.19);
+  z-index: 9999;
+  font-size: x-large;
+}
+
+.parchment {
+  position: relative;
+}
+
+.components-div {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: rgba(255, 255, 255, .79);
+  position: absolute;
+  width: 50%;
+  top: calc(35% - 50px);
+  left: calc(25% - 50px);
+  padding: 40px;
+  border-radius: 5px;
+  display: flexbox;
+  justify-content: center;
+  box-shadow: 0 2px 3px 0 rgba(100, 100, 100, 0.109), 0 2px 5px 0 rgba(53, 53, 53, 0.19);
+}
+
+.greeting-container {
+  justify-content: center;
+}
+
+.greet-text {
+  font-size: calc(10px + 2vmin);
+  color: rgb(53, 53, 53);
+  text-align: center;
+}
+
+.embark-text {
+  font-size: calc(4px + 2vmin);
+  color: rgb(53, 53, 53);
+  text-align: center;
+}
+
+.button-container {
+  display: flexbox;
+  justify-content: center;
+  margin-left: calc(45% - 50px);
+}
+
+.button {
+  background-color: var(--light);
+  border-color: whitesmoke;
+  color: white;
+  border-radius: 4px;
+  font-size: 1.2em;
+  padding: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.close-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+.button:hover {
+  background-color: var(--accent);
+  color: whitesmoke;
+}
+
+.close-button {
+  background-color: var(--light);
+  border-color: whitesmoke;
+  color: white;
+  border-radius: 4px;
+  font-size: .7em;
+  padding: 10px, 20px;
+  margin: 10px 15px 0 0;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: var(--accent);
+  color: whitesmoke;
+}
+
+
