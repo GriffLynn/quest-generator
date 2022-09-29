@@ -1,5 +1,4 @@
 
-
 const PopUp = ({ antagonists, loot, questgiver, quests, twists, close }) => {
 
   const chooseAntagonist = () => {

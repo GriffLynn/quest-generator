@@ -1,4 +1,4 @@
-import {useState, useEffect} from 'react';
+import {useState} from 'react';
 import PopUp from './components/PopUp.js';
 import Greeting from './components/Greeting.js';
 import Button from './components/Button.js';
@@ -30,6 +30,7 @@ const App = () => {
           <Greeting />
           <Button
             handleClick={setPop}/>
+      </div>
         {pop ? <PopUp
           antagonists={antagonists}
           loot={loot}
@@ -37,7 +38,6 @@ const App = () => {
           quests={quests}
           twists={twist}
           close={setPop} /> : null}
-      </div>
       <div className="footer-container">
         <footer className="app-footer">
         </footer>
