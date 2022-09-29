@@ -7,6 +7,7 @@ import loot from './data/loot.json';
 import quest_giver from './data/quest_giver.json';
 import quests from './data/quests.json';
 import twist from './data/twist.json';
+import logo from './assets/QG_Logo.png';
 import './App.css';
 
 const App = () => {
@@ -16,11 +17,15 @@ const App = () => {
 
   return (
     <div className="App">
-        <header className="App-header">
-          <div className="header-container">
-            <h2 className="qg">Quest Generator</h2>
-          </div>
-        </header>
+      <div className="header-padding">
+
+      </div>
+      <header className="App-header">
+        <div className="header-container">
+          <h2 className="qg">Quest Generator</h2>
+        </div>
+      </header>
+      <img src={logo} className="logo" alt="logo"></img>
       <div className="components-div">
           <Greeting />
           <Button
@@ -36,6 +41,8 @@ const App = () => {
       <div className="footer-container">
         <footer className="app-footer">
         </footer>
+      </div>
+      <div className="footer-padding">
       </div>
     </div>
   );

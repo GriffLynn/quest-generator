@@ -6,7 +6,7 @@ const Button = ({ handleClick }) => {
   }
 
   return(
-    <div className="button-div">
+    <div className="button-container">
       <button className="button"
         onClick={handleButtonClick}>
         <b>Let's Go!</b>

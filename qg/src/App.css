@@ -6,11 +6,14 @@
 
 body {
   background-color: whitesmoke;
-  max-width: 2000px;
 }
 
 .App {
+  position: relative;
+  background-image: url('./assets/map.jpg');
+  background-size:cover;
   font-size: 25px;
+  height: 740px;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -19,22 +22,32 @@ body {
 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-padding {
+  position: absolute;
+  background-color: var(--light);
+  top: -20px;
+  height: 30px;
+  width: 1344px;
+	max-width: 100%;
+  padding: 15px;
+	margin: 0 auto;
 }
 
 .header-container {
-  width: 960px;
+  position: absolute;
+  background-color: var(--light);
+  width: 1344px;
 	max-width: 100%;
-	padding: 20px;
+  padding: 15px;
 	margin: 0 auto;
   margin-bottom: 40px;
+  box-shadow: 0 2px 3px 0 rgba(100, 100, 100, 0.109), 0 2px 5px 0 rgba(53, 53, 53, 0.19);
 }
 
 .App-header .header-container {
   background-color: var(--accent);
-  max-height: 50px;
+  max-height: 35px;
+  top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -42,20 +55,28 @@ body {
 }
 
 .footer-container {
+  position:absolute;
+  bottom: 0;
+  width: 1334px;
   background-color: var(--accent);
   height: 25px;
-  width: 960px;
 	max-width: 100%;
 	padding: 20px;
 	margin: 0 auto;
-  margin-top: 318px;
+  box-shadow: 0 2px 3px 0 rgba(100, 100, 100, 0.109), 0 2px 5px 0 rgba(53, 53, 53, 0.19);
 }
 
 .app-footer {
-  max-height: 50px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+}
+
+.logo {
+  position: absolute;
+  top: -30px;
+  left: calc(46% - 50px);
+  width: 200px;
 }
 
 .qg {
@@ -79,23 +100,25 @@ body {
   justify-content: center;
   box-shadow: 0 20px 40px 0 rgba(66, 19, 20, 0.337), 0 50px 1000px 0 rgba(0, 0, 0, 0.19);
   z-index: 9999;
-  -webkit-transition: 0.5s;
-  overflow: auto;
-  transition: all 0.5s linear;
+  font-size: x-large;
 }
 
 .components-div {
   font-family: Georgia, 'Times New Roman', Times, serif;
-  display:flex;
-  flex-wrap: wrap;
+  background-color: rgba(255, 255, 255, 0.79);
+  position: absolute;
+  width: 50%;
+  top: calc(35% - 50px);
+  left: calc(25% - 50px);
+  padding: 40px;
+  border-radius: 5px;
+  display: flexbox;
   justify-content: center;
-  margin-top: 100;
+  box-shadow: 0 2px 3px 0 rgba(100, 100, 100, 0.109), 0 2px 5px 0 rgba(53, 53, 53, 0.19);
 }
 
 .greeting-container {
-  width: 300px;
-  margin-left: 500px;
-  margin-right: 500px;
+  justify-content: center;
 }
 
 .greet-text {
@@ -111,15 +134,9 @@ body {
 }
 
 .button-container {
-  display: flex;
+  display: flexbox;
   justify-content: center;
-  flex-wrap: wrap;
-}
-
-.close-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  margin-left: calc(45% - 50px);
 }
 
 .button {
@@ -129,10 +146,16 @@ body {
   border-radius: 4px;
   font-size: 1.2em;
   padding: 10px;
-  margin: 20px 15px 0 0;
   transition-duration: 0.4s;
   cursor: pointer;
 }
+
+.close-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 
 .button:hover {
   background-color: var(--accent);
